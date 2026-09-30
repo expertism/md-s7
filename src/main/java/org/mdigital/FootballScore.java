@@ -28,11 +28,8 @@ public class FootballScore {
                 totalPoints += 3;
             } else if (home == away) {
                 totalPoints += 1;
-            } else if (home < away) {
-                totalPoints += 0;
             }
         }
-
         return totalPoints;
     }
 
